@@ -1,0 +1,33 @@
+:root {
+  --lightBlueGreen: #6ed3cf;
+  --softPurple: #9068be;
+  --eightiesGrey: #e1e8f0;
+  --richRed: #e62739;
+}
+
+body {
+  padding: 40px;
+  background: var(--eightiesGrey);
+}
+
+.centered {
+  text-align: center;
+}
+
+#formDiv {
+  padding: 40px;
+  background: var(--lightBlueGreen);
+}
+
+input {
+  max-width: 300px;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.form-column {
+  width: 50%;
+}
