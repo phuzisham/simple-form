@@ -16,15 +16,60 @@
         <div class="form-row">
           <div class="form-column">
             <div class="form-group">
+              <label id="name-label">Name:</label>
               <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+            </div>
+            <div class="form-group">
+              <label id="email-label">Email:</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+              <label id="number-label">Age:</label>
+              <input type="number" class="form-control" id="number" placeholder="Enter your age" required min="0" max="99">
+            </div>
+            <div class="form-group">
+              <label for="dropdown">Favorite number:</label>
+              <select class="form-control" id="dropdown">
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+              </select>
             </div>
           </div>
           <div class="form-column">
             <div class="form-group">
-              <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+              <label for="comments">Comments and suggestions:</label>
+              <textarea class="form-control" id="comments" rows="5" placeholder="Enter your comments here..."></textarea>
+            </div>
+            <div class="form-group">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="Check1" id="check1">
+                <label class="form-check-label" for="check1">Check One</label>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="check2" id="check2">
+                <label class="form-check-label" for="check2">Check Two</label>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="group1" id="radio1" value="option1">
+                <label class="form-check-label" for="radio1">Radio One</label>
+             </div>
+            </div>
+            <div class="form-group">
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="group1" id="radio1" value="option1">
+                <label class="form-check-label" for="radio2">Radio Two</label>
+             </div>
             </div>
           </div>
         </div>
+        <button type="submit" class="btn mb-2" id="submit">Submit</button>
       </form>
     </div>
   </body>
