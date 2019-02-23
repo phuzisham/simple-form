@@ -34,19 +34,23 @@ input, select, textarea {
 }
 
 .form-check {
-  margin-left: 20px;
+  /* margin-left: 20px; */
 }
 
 button {
   background-color: var(--softPurple) !important;
   border-color: var(--softPurple) !important;
   color: var(--lightBlueGreen) !important;
-  margin-left: 10px;
+  margin-left: 5px;
 }
 
 @media only screen and (max-width: 700px) {
   .form-column {
     width: 100%;
     padding: 0px;
+  }
+
+  button {
+    margin-left: 0px;
   }
 }
